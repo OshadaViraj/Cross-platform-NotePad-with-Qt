@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>stackoverflow.com/questions/.../how-to-show-another-window-from-mainwindow-in-...
+Oct 5, 2009 - Implement a slot in your QMainWindow where you will open your new Window, Place a widget on your QMainWindow, Connect a signal from this Widget to a slot from the QMainWindow (For example: If the widget is a QPushButton connect the signal click() to the QMainWindow custom slot you have created).</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
